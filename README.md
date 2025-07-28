@@ -1,6 +1,3 @@
-# ai-powered-cicd-pipeline
-"AI-Powered CI/CD Pipeline for Microservices."
-
 # DeployBot: AI-Powered CI/CD Pipeline
 
 > An intelligent, event-driven CI/CD pipeline that uses AI to optimize deployment strategies and provide real-time feedback for microservice-based applications.
