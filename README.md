@@ -17,6 +17,11 @@ The project has successfully completed its first milestone. The primary goal was
 *   Successfully troubleshot dependency and networking issues within the Docker build process.
 *   The application is now fully containerized, ensuring it can run consistently on any machine with Docker.
 *   The initial code, including the application source and `Dockerfile`, has been pushed to this GitHub repository.
+---
+
+![Docker Container Running](assets/docker-container-running.png)
+
+---
 
 ### Technologies Used in this Milestone
 
