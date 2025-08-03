@@ -4,7 +4,7 @@ pipeline {
      tools {
         // This line tells Jenkins to find the tool named 'docker-host'
         // and add it to the PATH for this pipeline.
-        docker 'docker-host'
+        dockerTool 'docker-host'
     }
 
     stages {
