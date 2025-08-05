@@ -1,14 +1,16 @@
 pipeline {
     agent {
         docker {
-            image 'docker:24.0-dind'
-            args '--privileged'
+            image 'docker:latest'
+            args '-v /var/run/docker.sock:/var/run/docker.sock'
         }
     }
     stages {
-        stage('Test Docker') {
+        stage('Build Docker Image') {
             steps {
-                sh 'docker --version'
+                echo "Starting Docker build..."
+                sh 'docker build -t devsathome/deploybot-app:latest .'
+                echo "Docker build complete."
             }
         }
     }
